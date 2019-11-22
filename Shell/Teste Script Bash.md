@@ -15,8 +15,7 @@ _Exemplo de execução_
 
 ### Componentes do comando
 
-| Componente | Descrição   
-     |
+| Componente | Descrição | 
 | ---------- | -----------------|
 | s_client   | O comando **s_client** implementa um cliente SSL / TLS genérico que se conecta a um host remoto usando SSL / TLS. É uma ferramenta de diagnóstico muito útil para servidores SSL. [1]|
 | -connect host:port | Especifica o host e a porta (opcional) à qual se conectar. Se não especificado, é feita uma tentativa de conexão com o host local na porta 4433. [2]|
