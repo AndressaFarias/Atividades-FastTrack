@@ -25,7 +25,3 @@ dataValidadeCertificadoSegundos=$(date -d "$validadeCertificado" +%s)
 echo " "
 
 echo Faltam  $(( (dataValidadeCertificadoSegundos  - dataCorrenteSegundos) / 86400 )) dias para o certificao expirar.
-
-
-
-#echo faltam $($validadeCertificado-$dataCorrente) dias para o certificado expirar
