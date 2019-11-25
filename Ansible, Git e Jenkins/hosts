@@ -1,0 +1,2 @@
+[nginx]
+34.95.165.73 ansible_user=ansible ansible_ssh_private_key_file="/home/andressaidalgof/.ssh/ansible_key"

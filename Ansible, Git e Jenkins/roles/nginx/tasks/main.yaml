@@ -1,0 +1,23 @@
+---
+- name: 'Atualiza pacotes e instala nginx'
+  apt:
+    name: nginx
+    update_cache: yes
+    state: latest
+  notify:
+    - start nginx
+  become: yes
+
+- name: 'Configura Pagina nginx'
+  template:
+    src: 'templates/index.html.j2'
+    dest: '/usr/share/nginx/html/index.html'
+    notify:
+      - verifica arquivo
+    notify:
+      - restart nginx
+    notify:
+      - start nginx
+    notify:
+      - stop nginx
+  become: yes
