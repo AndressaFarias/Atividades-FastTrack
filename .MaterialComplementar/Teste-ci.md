@@ -94,6 +94,7 @@ PS. Para cada alteração efetuada no source armazenado no repo o Jenkins deve d
 > Um commit, um build
 Para fazermos isso, a configuração deve ser no repositório git do projeto adicionando no arquivo nomeDoSeuRepositorio/hooks/post-receive o seguinte conteúdo:
 curl http://endereco.do.jenkins/git/notifyCommit?url="https://github.com/alura-cursos/argentum-web.git"
+* porém a configuração não funcionou :confused:
 
 # Referencias:
 1. Primeiros passos com Ansible – Configurando e Gerenciando Nginx - https://churrops.io/2018/02/04/primeiros-passos-com-ansible-configurando-e-gerenciando-nginx/
