@@ -7,15 +7,17 @@
   notify:
     - start nginx
   become: yes
-
+# Cópia do arquivo para o diretório web do nginx
 - name: 'Configura Pagina nginx'
   template:
     src: 'templates/index.html.j2'
     dest: '/usr/share/nginx/html/index.html'
+    # verifica se o arquivo foi copiado corretamente
     notify:
       - verifica arquivo
     notify:
       - restart nginx
+    # verifica se o serviço do nginx esta iniciado, caso contrário, inicia-o.
     notify:
       - start nginx
     #notify:
