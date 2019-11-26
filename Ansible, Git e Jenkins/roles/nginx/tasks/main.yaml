@@ -18,6 +18,6 @@
       - restart nginx
     notify:
       - start nginx
-    notify:
-      - stop nginx
+    #notify:
+    #  - stop nginx
   become: yes
