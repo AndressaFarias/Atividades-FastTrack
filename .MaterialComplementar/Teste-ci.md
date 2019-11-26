@@ -96,7 +96,7 @@ Para fazermos isso, a configuração deve ser no repositório git do projeto adi
 curl http://endereco.do.jenkins/git/notifyCommit?url="https://github.com/alura-cursos/argentum-web.git"
 
 # Referencias:
-1. https://tableless.com.br/deploy-usando-git-pull-e-hooks/
+1. Primeiros passos com Ansible – Configurando e Gerenciando Nginx - https://churrops.io/2018/02/04/primeiros-passos-com-ansible-configurando-e-gerenciando-nginx/
 
 2. https://wiki.jenkins.io/display/JENKINS/Git+Plugin#GitPlugin-Pushnotificationfromrepository
 
@@ -109,5 +109,3 @@ curl http://endereco.do.jenkins/git/notifyCommit?url="https://github.com/alura-c
 6. shell - Execute shell commands on targes - https://docs.ansible.com/ansible/latest/modules/shell_module.html
 
 7. service - https://docs.ansible.com/ansible/latest/modules/service_module.html#service-module
-
-8. Primeiros passos com Ansible – Configurando e Gerenciando Nginx - https://churrops.io/2018/02/04/primeiros-passos-com-ansible-configurando-e-gerenciando-nginx/
