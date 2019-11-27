@@ -85,7 +85,6 @@ Eu trabalho utilizando DevOps!
     
 - [x] Verifique se seu web server esta up.
     
-
 PS. Para cada alteração efetuada no source armazenado no repo o Jenkins deve disparar um novo build.
    
 * as documentações cosultadas indicam que deve ser alterado o arquivo **post-receive** para que o build ocorra automticamente, porém no repo inicizado, em .git/hooks, esse ruvo não está presente.
