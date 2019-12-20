@@ -1,5 +1,7 @@
 # Atividades FastTrack
 
-## Script Shell
+- Script Shell
 
-## Ansible, Git e Jenkins
+- Ansible, Git e Jenkins
+
+- Kubernetes
